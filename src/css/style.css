@@ -1,0 +1,95 @@
+.form-datos {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Asegura que las bordes estén juntas */
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* Línea horizontal entre filas */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e8f4f8;
+}
+
+button,
+select {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.form-abm {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.form-abm label {
+    display: block;
+}
+
+.form-abm input,
+.form-abm select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-abm button {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-abm button:hover {
+    background-color: #e0e0e0;
+}
+
+.form-abm .buttons {
+    grid-column: span 4;
+    display: flex;
+    gap: 10px;
+}
+
+.form-abm label {
+    margin-bottom: 10px;
+}
